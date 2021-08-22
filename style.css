@@ -21,6 +21,10 @@ body {
   overflow-x: hidden;
 }
 
+a {
+  text-decoration: none;
+}
+
 p {
   line-height: 1.7;
 }
@@ -305,11 +309,17 @@ nav ul li {
   padding-right: 2rem;
   padding-bottom: 3rem;
   padding-left: 2rem;
+  color: rgb(51, 51, 51);
 }
 
-.contact h4 {
+.contact .phone {
   font-size: 1.3rem;
   margin-top: 0;
+}
+
+.contact a {
+  text-decoration: none;
+  color: rgb(51, 51, 51);
 }
 
 .contact p {
